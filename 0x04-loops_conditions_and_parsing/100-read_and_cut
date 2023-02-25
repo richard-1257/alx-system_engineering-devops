@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Dispalys the content of the file `/etc/password`.
+#   Only displays the username, user id, and user home directory path.
+
+while read -r passwd; do
+  echo "$passwd" | cut -d ':' -f1,3,6
+done < "/etc/passwd"
