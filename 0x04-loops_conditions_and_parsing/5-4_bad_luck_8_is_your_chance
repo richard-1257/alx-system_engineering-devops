@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# loop from 1 to 10 and displays:
-# "bad luck" for the 4th iteration
-# "good luck" for the 8th iteration
-# "best school" for all other iterations
+# Loops from 1 to 10 and displays:
+#   "bad luck" for the 4th iteration
+#   "good luck" for the 8th iteration
+#   "Best School" for all other iterations
 
 count=0
 
@@ -15,7 +15,8 @@ do
   then
     echo "good luck"
   else
-    echo "best school"
+    echo "Best School"
   fi
   (( count++ ))
 done
+
