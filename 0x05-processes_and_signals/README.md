@@ -1,4 +1,4 @@
-`# Processes and signals
+# Processes and signals
 
 In this project, I learned about handling process ID's and signals in Bash with `ps`, `pgrep`, `pkill`, `pkill`, `exit`, and `trap`.
 
@@ -21,51 +21,43 @@ In this project, I learned about handling process ID's and signals in Bash with 
      - [4-to_infinity_and_beyond](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/4-to_infinity_and_beyond):  Bash script that displays `To infinity and beyond` indefinitely with a `sleep 2` in between each iteration.
     
 - 5. Don't stop me now!
-     - [5-dont_stop_me_now](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/5-dont_stop_me_now):  Bash script that kills the 4-to_infinity_and_beyond process using `kill`.
-     - Prints the list after each swap.
-     - [101-O](https://github.com/richard-1257/sorting_algorithms/blob/master/101-O): Text file containing the best, average, and worst case time complexities of the Cocktail Shaker Sort algorithm, one per line.
+     - [5-dont_stop_me_now](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/5-dont_stop_me_now):  Bash script that kills the [4-to_infinity_and_beyond](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/4-to_infinity_and_beyond) process using `kill`.
      
-- 6. Counting sort
-     - [102-counting_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/102-counting_sort.c): C function that sorts an array of integers in ascending order using the Counting Sort algorithm.
-     - Assumes that the array will only contain numbers `>= 0`.
-     - Prints the counting array after it has been initialized.
-     - [102-O](https://github.com/richard-1257/sorting_algorithms/blob/master/102-O): Text file containing the best, average, and worst case time complexities of the Counting Sort algorithm, one per line.
+- 6. Stop me if you can
+     - [6-stop_me_if_you_can](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/6-stop_me_if_you_can): Bash script that kills the [4-to_infinity_and_beyond](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/4-to_infinity_and_beyond) process using `pkill`.
      
-- 7. Merge sort
-     - [103-merge_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/103-merge_sort.c): C function that sorts an array of integers in ascending order using the Merge Sort algorithm.
-     - Implements the `top-down` Merge Sort algorithm
-         - When an array is divided, the size of the left subarray is always less than or equal to the size of the right subarray.
-         - Always sorts the left subarray before the right one.
-     - Prints subarrays each time they are merged.
-     - [103-O](https://github.com/richard-1257/sorting_algorithms/blob/master/103-O): Text file containing the best, average, and worst case time complexities of the Merge Sort algorithm, one per line.
-
-- 8. Heap sort
-     - [104-heap_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/104-heap_sort.c): C function that sorts an array of integers in ascending order using the Heap Sort algorithm.
-     - Implements the `sift-down` Heap Sort algorithm.
-     - Prints the array after each swap.
-     - [104-O](https://github.com/richard-1257/sorting_algorithms/blob/master/104-O): Text file containing the best, average, and worst case time complexiites of the Heap Sort algorithm, one per line.
+- 7. Highlander
+     - [7-highlander](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/7-highlander): Bash script that displays `To infinity and beyond` indefinitely with a `sleep 2` in between each iteration.
+     - Displays `I am invincible!!!` upon receiving a `SIGTERM` signal.
      
-- 9. Radix sort
-     -[105-radix_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/105-radix_sort.c): C function that sorts an array of integers in ascending order using the Radix Sort algorithm.
-     - Implements the Least-Significant-Digit (LSD) Radix Sort algorithm.
-     - Assumes that the array will only contain numbers `>= 0`.
-     - Prints the array for each significant digit increase.
-     - [105-O](https://github.com/richard-1257/sorting_algorithms/blob/master/105-O): Text file containing the best, average, and worst case time complexities of the Radix Sort algorithm, one per line.
+- 8. Beheaded process
+     - [8-beheaded_process](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/8-beheaded_process): Bash script that kills the process [7-highlander](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/7-highlander).
      
-- 10. Bitonic sort
-      - [106-bitonic_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/106-bitonic_sort.c):  C function that sorts an array of integers in ascending order using the Bitonic Sort algorithm.
-      - Assumes that `size` is a power of 2 (ie. `size` can be expressed as `2^k` where `k >= 0`).
-      - Prints subarrays each time they are merged.
-      - [106-O](https://github.com/richard-1257/sorting_algorithms/blob/master/106-O): Text file containing the best, average, and worst case time complexities of the Bitonic Sort algorithm, one per line.
+- 9. Process and PID file
+     -[100-process_and_pid_file](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/100-process_and_pid_file): Bash script that creates the file `/var/run/holbertonscript.pid` containing its PID and displays `To infinity and beyond` indefinitely.
+     - Displays `I hate the kill command` upon receiving a `SIGTERM` signal.
+     - Displays `Y U no love me?!` upon receiving a `SIGINT` signal.
+     - Deletes the file `/var/run/holbertonscript.pid` and terminates itself upon receiving the `SIGQUIT` or `SIGTERM` signal.
+     
+- 10. Manage my process
+      - [manage_my_process](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/manage_my_process):  Bash script that writes `I am alive!` to the file `/tmp/my_process` indefinitely.
+      - [101-manage_my_process](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/101-manage_my_process): Bash script that manages the [manage_my_process](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/manage_my_process) script.
+      - When passed the argument `start`:
+        - Starts [manage_my_process](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/manage_my_process)
+        - Creates a file containing its PID in `/var/run/my_process.pid`.
+        - Displays `manage_my_process started`.
+      - When passed the argument `stop`:
+        - Stops [manage_my_process](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/manage_my_process).
+        - Deletes the file `/var/run/my_process.pid`.
+        - Displays `manage_my_process stopped`.
+     - When passed the argument `restart`:
+        - Stops [manage_my_process](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/manage_my_process).
+        - Deletes the file `/var/run/my_process.pid`.
+        - Starts `manage_my_process`.
+        - Creates a file containing its PID in `/var/run/my_process.pid`.
+        - Displays `manage_my_process started`.
+     - Otherwise, displays `Usage: manage_my_process {start|stop|restart}`.
       
-- 11. Quick Sort - Hoare Partition scheme
-      - [107-quick_sort_hoare.c](https://github.com/richard-1257/sorting_algorithms/blob/master/107-quick_sort_hoare.c): C function that sorts an array of integers in ascending order using the Quick Sort algorithm.
-      - Implements the Hoare partition scheme.
-      - Always uses the last elemement of the partition being sorted as the pivot.
-      - Prints the array after each swap.
-      - [107-O](https://github.com/richard-1257/sorting_algorithms/blob/master/107-O): Text file containing the best, average, and worst case time complexities of the Quick Sort Hoare Partition cheme algorithm, one per line.
-      
-- 12. Dealer
-      - [1000-sort_deck.c](https://github.com/richard-1257/sorting_algorithms/blob/master/1000-sort_deck.c): C function that sorts a `deck_node_t` doubly-linked list deck of cards.
-      - Assumes that there are exactly 52 elements in the doubly-linked list.
-      - Orders the deck from spades to diamonds and from aces to kings.
+- 11. Zombie
+      - [102-zombie.c](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/102-zombie.c): C program that creates five zombie processes.
+      - For every zombie created, displays `Zombie process created, PID: <ZOMBIE_PID>`.
