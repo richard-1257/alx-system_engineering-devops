@@ -12,3 +12,7 @@ Note: Each Ruby script in the project matches regular expressions based on an ar
 1. Repetition Token #0
 
 1-repetition_token_0.rb: Ruby script that matches the regular expression hbn with between 2-5 t's in between hb and n.
+
+3. Repetition Token #2
+
+3-repetition_token_2.rb: Ruby script that matches the regular expression hbn with 1 or more t's in between hb and n.
