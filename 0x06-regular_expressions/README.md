@@ -1,3 +1,5 @@
+![regular expressions](https://user-images.githubusercontent.com/83041703/222006804-afd7fb02-6a56-4acc-93eb-c3b07e9f41ea.jpg)
+
 # Regular expression
 
 All code in this directory was tested using [Rubular](https://rubular.com/). Rubular is a Ruby-based regular expression editor. It's a handy way to test regular expressions as you write them.
