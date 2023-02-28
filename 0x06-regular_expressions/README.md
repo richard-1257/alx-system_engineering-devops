@@ -20,3 +20,8 @@ Note: Each Ruby script in the project matches regular expressions based on an ar
 4. Repetition Token #3
 
 4-repetition_token_3.rb: Ruby script that matches the regular expression hbn with 0 or more t's in between hb and n.
+
+6. Call me maybe
+
+6-phone_number.rb: Ruby script that matches a regular expression representing a 10-digit phone number.
+7. OMG WHY ARE YOU SHOUTING?
