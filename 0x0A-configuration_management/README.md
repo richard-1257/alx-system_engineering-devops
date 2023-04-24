@@ -6,7 +6,7 @@ In this project, I started working with Puppet as a configuration management too
 
 
 ## Tasks 📃
-- 0. Bubble sort
+- 0. Create a file
      - [0-bubble_sort.c](https://github.com/richard-1257/sorting_algorithms/blob/master/0-bubble_sort.c):  C function that sorts an array of integers in ascending order using the Bubble Sort algorithm.
      - Prints the array after each swap.
      - [0-O](https://github.com/richard-1257/sorting_algorithms/blob/master/0-O): Text file containing the best, average, and worst case time complexities of the Bubble Sort algorithm, one per line.
