@@ -1,3 +1,4 @@
+![image](https://user-images.githubusercontent.com/83041703/234346467-146f0f08-6af6-4692-b6d8-93cabc9d9b80.png)
 
 
 # SSH
@@ -7,14 +8,10 @@ In this project, I became familiar connecting to and working with servers using 
 
 ## Tasks 📃
 - 0. Use a private key
-     - [0-create_a_file.pp](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x0A-configuration_management/0-create_a_file.pp):  Puppet manifest file that creates a file school in the /tmp directory.
-       - File permissions: `0744`.
-       - File group: `www-data`.
-       - File owner: `www-data`.
-       - File content: `I love Puppet`.
+     - [0-use_a_private_key](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x0B-ssh/0-use_a_private_key): Bash script that uses `ssh` to connect to my ALX-provided server.
      
-- 1. Install a package
-     - [1-install_a_package.pp](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x0A-configuration_management/1-install_a_package.pp): Puppet manifest file that install `flask` from pip3.
+- 1. Create an SSH key pair
+     - [1-create_ssh_key_pair](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x0B-ssh/1-create_ssh_key_pair): Bash script that creates an RSA key pair.
      
-- 2. Execute a command
-     - [2-execute_a_command.pp](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x0A-configuration_management/2-execute_a_command.pp): Puppet manifest file that kills the process `killmenow`.
+- 2. Client configuration file
+     - [2-ssh_config](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x0B-ssh/2-ssh_config): SSH configuration file configured to use the private key `~/.ssh/school` and to refuse authentication using a password.
