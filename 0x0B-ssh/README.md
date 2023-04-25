@@ -2,11 +2,11 @@
 
 # SSH
 
-In this project, I started working with Puppet as a configuration management tool. I practiced writing Puppet manifest files to create a file, install a package, and execute a command.
+In this project, I became familiar connecting to and working with servers using the SSH protocol. I worked on a server provided by ALX.
 
 
 ## Tasks 📃
-- 0. Create a file
+- 0. Use a private key
      - [0-create_a_file.pp](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x0A-configuration_management/0-create_a_file.pp):  Puppet manifest file that creates a file school in the /tmp directory.
        - File permissions: `0744`.
        - File group: `www-data`.
