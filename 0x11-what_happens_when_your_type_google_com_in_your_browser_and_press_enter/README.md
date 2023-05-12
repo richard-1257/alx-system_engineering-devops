@@ -1,2 +1,6 @@
 # 0x11. What happens when you type google.com in your browser and press Enter
 I was asked to draft an article for this project that would cover every aspect of the web 2.0 infrastructure. As a Fullstack Software Engineer, I find it crucial to comprehend this idea. In order to complete this project, I had to review and summarize the networking information and abilities I had been studying and honing over the previous month. I thus produced a blog post in which I addressed the traditional interview query, "What happens when you type a URL into a browser and hit `Enter`?"
+
+Task Responses 📃
+- 0. What happens when...
+  -
