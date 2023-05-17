@@ -1,6 +1,12 @@
 
 ![firewall](https://github.com/richard-1257/alx-system_engineering-devops/assets/83041703/a3c7e634-ba26-421f-8e94-a84b297d14ac)
 
+### Background Context
+### Your servers without a firewall…
+
+![Background Context](https://github.com/richard-1257/alx-system_engineering-devops/assets/83041703/db777dfc-c631-4486-9953-2b50ffbcb858)
+
+
 # Firewall
 In this project, I used `ufw` to configure firewalls on my issued web servers.
 
