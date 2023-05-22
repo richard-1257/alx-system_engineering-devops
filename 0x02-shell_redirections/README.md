@@ -1,14 +1,4 @@
-
-Script 15.Count that word, Display the number of lines that contain the pattern “bin” in the file /etc/passwd
-Script 16.What's next?Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
-Script 17.I hate bins, Display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
-Script 18.Letters only please, Display all lines of the file /etc/ssh/sshd_config starting with a letter.
-Script 19.A to Z, Replace all characters A and c from input to Z and e respectively.
-Script 20.Without C, you would live in hiago, Create a script that removes all letters c and C from input.
-Script 21.esreveR, Write a script that reverse its input.
-Script 22. DJ Cut Killer, Write a script that displays all users and their home directories, sorted by users. Based on the the /etc/passwd file
-
-
+# Shell, I/O Redirections and filters
 Write a script that prints “Hello, World”, followed by a new line to the standard output
 
 Write a script that displays a confused smiley "(Ôo)'.
