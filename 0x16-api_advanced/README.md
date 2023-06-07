@@ -8,8 +8,10 @@ I continued to practice querying API's in this advanced project, this time worki
 
 | File | Prototype |
 | ---- | --------- |
-| `print_array.c` | `void print_array(const int *array, size_t size)` |
-| `print_list.c` |`void print_list(const listint_t *list)` |
-| `0-bubble_sort.c` | `0-bubble_sort.c	void bubble_sort(int *array, size_t size);` |
+| `0-subs.py` | `def number_of_subscribers(subreddit)` |
+| `1-top_ten.py` |`def top_ten(subreddit)` |
+| `2-recurse.py` | `def recurse(subreddit, hot_list=[])` |
 | `1-insertion_sort_list.c` | `void insertion_sort_list(listint_t **list);` |
-| `2-selection-sort.c` | `void selection_sort(int *array, size_t size);` |
+| `100-count.py` | `def count_words(subreddit, word_list)` |
+
+Tasks 📃
