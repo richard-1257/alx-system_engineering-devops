@@ -4,3 +4,8 @@ This project was further practice in working with API's. I collected data from t
 
 ## Tasks 📃
 - 0. Gather data from an API
+  - [0-gather_data_from_an_API.py](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x15-api/0-gather_data_from_an_API.py): Python script that returns information on the to-do list progress of a given employee ID.
+  - Usage: `python3 0-gather_data_from_an_API.py <employee ID>`.
+  - Output: `Employee <employee name> is done with tasks(<# completed tasks>/<total # tasks>)`:
+
+- 1. Export to CSV
