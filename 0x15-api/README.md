@@ -15,6 +15,12 @@ This project was further practice in working with API's. I collected data from t
   - Format: `"<user id>","<username>","<task completed status>","<task title>"`.
 
 - 2. Export to JSON
+  - [2-export_to_JSON.py](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x15-api/2-export_to_JSON.py): Python script that exports to-do list information of a given employee ID to JSON format.
+  - Usage: `python3 2-export_to_JSON.py <employee ID>`
+  - File name: `<user id>.json`
+  - Format: `{ "<user id>": [ {"task": "<task title>", "completed": <task completed status>, "username": "<username>"}}, ... ]}`
+
+- 3. Dictionary of list of dictionaries
   - [](): 
 
 
