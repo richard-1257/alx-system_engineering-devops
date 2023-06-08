@@ -9,3 +9,16 @@ This project was further practice in working with API's. I collected data from t
   - Output: `Employee <employee name> is done with tasks(<# completed tasks>/<total # tasks>)`:
 
 - 1. Export to CSV
+  - [1-export_to_CSV.py](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x15-api/1-export_to_CSV.py): Python script exports to-do list information of a given employee ID to CSV format.
+  - Usage: `python3 1-export_to_CSV.py <employee ID>`
+  - File name: `<user id>.csv`. 
+  - Format: `"<user id>","<username>","<task completed status>","<task title>"`.
+
+- 2. Export to JSON
+  - [](): 
+
+
+
+  
+  
+  
