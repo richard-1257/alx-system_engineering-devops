@@ -7,3 +7,5 @@ This was the application deployment project for our AirBnB clone. In this projec
 
 - 1. Set up production with Gunicorn
   - This task involved setting up a production environment, installing and configuring Gunicorn to serve the same file from task 0.
+ 
+- 2. Serve a page with Nginx
