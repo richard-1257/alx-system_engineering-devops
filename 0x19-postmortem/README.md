@@ -25,3 +25,5 @@ Bug debugger Brennan (BDB... as in my actual initials... made that up on the spo
 In short, a typo. Gotta love'em. In full, the WordPress app was encountering a critical error in `wp-settings.php` when tyring to load the file `class-wp-locale.phpp.` The correct file name, located in the `wp-content` directory of the application folder, was `class-wp-locale.php.`
 
 Patch involved a simple fix on the typo, removing the trailing `p.`
+
+## Prevention
