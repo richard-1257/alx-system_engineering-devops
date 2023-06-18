@@ -27,3 +27,12 @@ In short, a typo. Gotta love'em. In full, the WordPress app was encountering a c
 Patch involved a simple fix on the typo, removing the trailing `p.`
 
 ## Prevention
+This outage was not a web server error, but an application error. To prevent such outages moving forward, please keep the following in mind.
+
+- Test! Test test test. Test the application before deploying. This error would have arisen and could have been addressed earlier had the app been tested.
+
+- Status monitoring. Enable some uptime-monitoring service such as UptimeRobot to alert instantly upon outage of the website.
+
+Note that in response to this error, I wrote a Puppet manifest 0-strace_is_your_friend.pp to automate fixing of any such identitical errors should they occur in the future. The manifest replaces any `phpp` extensions in the file `/var/www/html/wp-settings.php` with `php.`
+
+But of course, it will never occur again, because we're programmers, and we never make errors! 😉
