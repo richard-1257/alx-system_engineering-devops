@@ -22,6 +22,6 @@ Bug debugger Brennan (BDB... as in my actual initials... made that up on the spo
 8. Wrote a Puppet manifest to automate fixing of the error.
 
 ## Summation
-In short, a typo. Gotta love'em. In full, the WordPress app was encountering a critical error in wp-settings.php when tyring to load the file class-wp-locale.phpp. The correct file name, located in the wp-content directory of the application folder, was class-wp-locale.php.
+In short, a typo. Gotta love'em. In full, the WordPress app was encountering a critical error in `wp-settings.php` when tyring to load the file `class-wp-locale.phpp.` The correct file name, located in the `wp-content` directory of the application folder, was `class-wp-locale.php.`
 
-Patch involved a simple fix on the typo, removing the trailing p.
+Patch involved a simple fix on the typo, removing the trailing `p.`
