@@ -19,3 +19,8 @@ This was the application deployment project for our AirBnB clone. In this projec
 - 4. Let's do this for your API
   - In this task, I configured the API from my [AirBnB_clone_v3](https://github.com/richard-1257/AirBnB_clone_v3) to run on Gunicorn.
   - [4-app_server-nginx_config](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x1A-application_server/4-app_server-nginx_config): Nginx configuration file that proxies requests on the AirBnB API to the corresponding Gunicorn app.
+
+- 5. Serve your AirBnB clone
+  - In this task, I configured the complete AirBnB app from [AirBnB_clone_v4](https://github.com/richard-1257/AirBnB_clone_v4) to run on Gunicorn and be served through Nginx.
+  - [5-app_server-nginx_config](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x1A-application_server/5-app_server-nginx_config): Nginx configuration file configured to serve the static assets from `web_dynamic/static/` on the Gunicorn AirBnB app.
+
