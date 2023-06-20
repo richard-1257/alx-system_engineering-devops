@@ -14,3 +14,4 @@ This was the application deployment project for our AirBnB clone. In this projec
   - [2-app_server-nginx_config](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x1A-application_server/2-app_server-nginx_config): Nginx configuration file proxying requests on the route `/airbnb-onepage/` to the Gunicorn app running on port `5000`.
 
 - 3. Add a route with query parameters
+  - [3-app_server-nginx_config](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x1A-application_server/3-app_server-nginx_config): Nginx configuration file proxying requests on the route `/airbnb-dynamic/number_odd_or_even/<int: num>` to the Gunicorn app running on port `5000`.
