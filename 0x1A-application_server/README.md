@@ -29,6 +29,4 @@ This was the application deployment project for our AirBnB clone. In this projec
   - The Gunicorn process spawns three worker processes and logs errors to `/tmp/airbnb-error.log`, access to `/tmp/airbnb-access.log`.
 
 - 7. No service interruption
-
-
-
+  - [4-reload_gunicorn_no_downtime](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x1A-application_server/4-reload_gunicorn_no_downtime): Bash script that gracefully reloads Gunicorn.
