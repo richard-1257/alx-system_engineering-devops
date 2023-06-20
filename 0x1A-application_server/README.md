@@ -24,3 +24,11 @@ This was the application deployment project for our AirBnB clone. In this projec
   - In this task, I configured the complete AirBnB app from [AirBnB_clone_v4](https://github.com/richard-1257/AirBnB_clone_v4) to run on Gunicorn and be served through Nginx.
   - [5-app_server-nginx_config](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x1A-application_server/5-app_server-nginx_config): Nginx configuration file configured to serve the static assets from `web_dynamic/static/` on the Gunicorn AirBnB app.
 
+- 6. Deploy it
+  - [gunicorn.conf](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x1A-application_server/gunicorn.conf): Configuration file for an Upstart script that starts a Gunicorn process bounded to port 5003 that serves the content from task 5.
+  - The Gunicorn process spawns three worker processes and logs errors to `/tmp/airbnb-error.log`, access to `/tmp/airbnb-access.log`.
+
+- 7. No service interruption
+
+
+
