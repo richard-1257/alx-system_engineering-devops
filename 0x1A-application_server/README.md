@@ -11,3 +11,6 @@ This was the application deployment project for our AirBnB clone. In this projec
   - This task involved setting up a production environment, installing and configuring Gunicorn to serve the same file from task 0.
  
 - 2. Serve a page with Nginx
+  - [2-app_server-nginx_config](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x1A-application_server/2-app_server-nginx_config): Nginx configuration file proxying requests on the route `/airbnb-onepage/` to the Gunicorn app running on port `5000`.
+
+- 3. Add a route with query parameters
