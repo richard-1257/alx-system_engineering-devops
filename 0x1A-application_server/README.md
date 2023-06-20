@@ -15,3 +15,7 @@ This was the application deployment project for our AirBnB clone. In this projec
 
 - 3. Add a route with query parameters
   - [3-app_server-nginx_config](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x1A-application_server/3-app_server-nginx_config): Nginx configuration file proxying requests on the route `/airbnb-dynamic/number_odd_or_even/<int: num>` to the Gunicorn app running on port `5000`.
+
+- 4. Let's do this for your API
+  - In this task, I configured the API from my [AirBnB_clone_v3](https://github.com/richard-1257/AirBnB_clone_v3) to run on Gunicorn.
+  - [4-app_server-nginx_config](https://github.com/richard-1257/alx-system_engineering-devops/blob/master/0x1A-application_server/4-app_server-nginx_config): Nginx configuration file that proxies requests on the AirBnB API to the corresponding Gunicorn app.
